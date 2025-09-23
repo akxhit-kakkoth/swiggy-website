@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: gilroy;
+}
+.header{
+    background-color: #ff5200;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 160px;
+    align-items: center;
+}
+.logo{
+    width: 160px;
+}
+.header-right{
+    display: flex;
+    gap: 20px;
+    align-items: center;    
+}
+.header-right a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+.header-right-btn-1{
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid rgb(255, 255, 254);
+    padding: 10px 20px;
+    height: 55px;    
+    cursor: pointer;
+    border-radius: 12px;
+
+}
+.header-right-btn-2{
+    background-color: black;
+    font-weight: 600;
+    font-size: 16px;
+    color: rgb(254, 254, 254);
+    border: none;
+    padding: 10px 0px;
+    height: 55px;
+    width: 130px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.arrow-icon{
+    rotate: -45deg;
+    
+}
+/* header ends */
+/* hero starts */
+.hero-section{
+    background-color: #ff5200;
+    display: flex;
+    justify-content: space-between;
+}
+.hero-left img,
+.hero-right img{
+    width: 250px;
+}
+.hero-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 720px;
+    padding-top: 64px;
+      text-align: center;
+
+}
+.hero-center h1{
+    color: white;
+    /* text-align: center; */
+    font-size: 48px;
+    font-family: gilroy;
+
+}
