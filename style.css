@@ -41,6 +41,12 @@ body{
     border-radius: 12px;
 
 }
+.header-right-btn-1 i{
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    font-size: larger;
+}
+
 .header-right-btn-2{
     background-color: black;
     font-weight: 600;
