@@ -188,6 +188,7 @@ body{
 }
 .shop-container{
     display: flex;
+    justify-content: space-evenly;
 }
 .product{
     width: 160px;
@@ -201,9 +202,14 @@ body{
 .tags{
     font-family: gilroy;
     display: flex;
-    padding: 32px 160px;
+    padding: 0px 220px 38px 162px;
     justify-content: baseline;
     text-align: center;
+    gap: 20px;
+    margin-right: -55px;
+}
+.tag{
+    width: 170px;
 }
 /* Discover best restaurants on Dineout
  */
